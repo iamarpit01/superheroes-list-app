@@ -1,0 +1,41 @@
+.horizontal-bar-chart{
+    .horizontal-bar-chart__row{
+        margin-bottom: 5px;
+
+        .horizontal-bar-chart__info{
+            width: 30%;
+            .horizontal-bar-chart__title,
+            .horizontal-bar-chart__value{
+                font-size: 14px;
+            }
+            .horizontal-bar-chart__title{
+                color: #CCCCCC;
+            }
+            .horizontal-bar-chart__value{
+                color: #CCCCCC;
+            }
+        }
+
+        .horizontal-bar-chart__bar{
+            width: calc(70% - 15px);
+            position: relative;
+
+            .horizontal-bar-chart__bar-shadow,
+            .horizontal-bar-chart__bar-active{
+                height: 6px;
+                width: 100%;
+                display: block;
+            }
+            .horizontal-bar-chart__bar-shadow{
+                background: #333333;
+            }
+            .horizontal-bar-chart__bar-active{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 50%;
+                background: #f5c71a;
+            }
+        }
+    }
+}

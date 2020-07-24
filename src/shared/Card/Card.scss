@@ -1,0 +1,29 @@
+.hero-card{
+    background-color: #FF0000;
+    margin-bottom: 30px;
+    transition: all 0.2s ease-in;
+
+    .hero-card__img{
+        position: relative;
+
+        .hero-card__publisher{
+            display: block;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background-color: #2F4F4F;
+            color: #FFFFFF;
+            padding: 5px;
+        }
+    }
+
+    .hero-card__content{
+        padding: 15px;
+        min-height: 120px;
+
+        h4,
+        h6{
+            color: #F7F7F7;
+        }
+    }
+}

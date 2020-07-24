@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import './assets/scss/bootstrap/bootstrap.scss';
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #151515;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+p{
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+
+    &:hover{
+        text-decoration: none;
+
+        .hero-card{
+            background-color: #000000;
+        }
+    }
+}
+
+.main{
+    padding: 60px 0;
+}
